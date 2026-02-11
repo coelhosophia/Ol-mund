@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num1, num2, soma, subtracao, multiplicacao
+		real divisao, resto_divisao
+		num1 = 50
+		num2 = 63
+		soma = num1+num2
+		subtracao = num1-num2
+		multiplicacao = num1*num2
+		divisao = num1/num2 
+		resto_divisao = num1%num2 
+		escreva( "o resultado da some é: ",soma, "\n")
+		escreva( "o resultado da subtracao é:" ,subtracao, "\n")
+		escreva( "o resultado da subtracao é:" ,multiplicacao, "\n")
+		escreva( "o resultado da subtracao é:" ,divisao, "\n")
+		escreva( "o resultado da subtracao é:" ,resto_divisao, "\n")
+	
+	}
+}
